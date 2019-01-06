@@ -932,7 +932,7 @@ margin-left: 3rem;
   width: 100%;
 display: grid;
 grid-template-columns: 0% 120%;
-
+display: block;
 grid-gap: 1rem;
 padding: 1rem;
 
