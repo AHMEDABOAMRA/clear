@@ -1427,13 +1427,13 @@ left: 0rem;
        -webkit-transition: all ease-in-out 200ms;
    }
    .arrowBox{
-    width: 60%;
+    width: 100%;
     height: 100%;
     background-color: #f2f4f8;
     border-radius: 5px;
     position: relative ;
   margin-top:1rem;
-margin-left: 28rem;
+margin-left: 0rem;
 
     padding: 10px;
     font-family: Roboto, sans-serif;
