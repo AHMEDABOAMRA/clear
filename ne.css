@@ -1434,7 +1434,8 @@ left: 0rem;
     position: relative ;
   margin-top:1rem;
 right: 66%;
-  
+margin-left: 0rem;
+
     padding: 10px;
     font-family: Roboto, sans-serif;
     font-size: 14px;
