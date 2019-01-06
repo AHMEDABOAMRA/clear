@@ -1150,7 +1150,6 @@ height: 500px;
   position:relative;
   float:right;
 }.barWrapper{
-  display: block;
 }
 .tooltip > .tooltip-inner {background-color: #eebf3f; padding:5px 15px; color:rgb(23,44,66); font-weight:bold; font-size:13px;}
 .popOver + .tooltip > .tooltip-arrow {	border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #eebf3f;}
