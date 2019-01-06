@@ -38,11 +38,11 @@ grid-gap: 1rem;
 width:70%;
 
 }.osd{
-display: none;}
+display: block;}
 .osds{
-display: none;
+  display: block;
 }.osdf{
-display: none;
+  display: block;
 }.ohsh h1{
 font-size: 2rem;
 }
@@ -104,9 +104,9 @@ background: #3855b1;}
 .o .panel-body{
 color: black;}
 .panel-group{
-display: none;}
+  display: block;}
 .what .slider > div{
-display: none;
+  display: block;
 }.what .slider > .active{
 display: block;
 }
@@ -190,7 +190,7 @@ background-color: white;
 height: 300px;box-shadow:  10px 10px 20px black ;
 border-radius: 5px;
 border-bottom: 5px solid #6ac3f7;
-display: none;
+display: block;
 
 }
 
@@ -232,7 +232,7 @@ background-color: white;
 height: 300px;box-shadow:  10px 10px 20px black ;
 border-radius: 5px;
 border-bottom: 5px solid #ff4747;
-display: none;
+display: block;
 
 }
 
@@ -273,8 +273,7 @@ background-color: white;
 height: 300px;box-shadow:  10px 10px 20px black ;
 border-radius: 5px;
 border-bottom: 5px solid #ffbc3c;
-display: none;
-
+display: block;
 }
 
 
@@ -322,7 +321,7 @@ background-color: white;
 height: 300px;box-shadow:  10px 10px 20px black ;
 border-radius: 5px;
 border-bottom: 5px solid #b647b4;
-display: none;
+display: block;
 
 }
 
@@ -368,7 +367,7 @@ background-color: white;
 height: 300px;box-shadow:  10px 10px 20px black ;
 border-radius: 5px;
 border-bottom: 5px solid #00a69b;
-display: none;
+display: block;
 
 }
 
@@ -410,7 +409,7 @@ background-color: white;
 height: 300px;box-shadow:  10px 10px 20px black ;
 border-radius: 5px;
 border-bottom: 5px solid #3855b1;
-display: none;
+display: block;
 
 }
 
@@ -564,7 +563,7 @@ background-color: rgb(255, 255, 255);
 nav ul {
     padding-top: 10px;
     padding-left: 5px;
-
+   
 }
 
 nav ul li {
@@ -592,7 +591,7 @@ font-size: 2rem;}
   margin-left: 25%;
 font-family: serif;
 
-display: none;
+display: block;
 }
 
 .carousel p{
@@ -821,7 +820,7 @@ grid-gap: 1rem;
 padding: 1rem;
 }
 .omk .ae{
-  display: none;
+  display: block;
 
 width: 100%;
 height: 200px;
@@ -842,8 +841,7 @@ margin-top: 2rem;
 margin-left: 3rem;
 }
 .omk .ab{
-  display: none;
-
+  display: block;
   width: 100%;
 height: 200px;
 background-color:  rgba(255, 255, 255, 0.603);
@@ -876,7 +874,7 @@ margin-left: 3rem;
 
 
 .omk .abs{
-  display: none;
+  display: block;
 
   width: 100%;
 height: 200px;
@@ -905,7 +903,7 @@ margin-left: 3rem;
 
 
 .omk .abe{
-  display: none;
+  display: block;
 
   width: 100%;
 height: 200px;
@@ -980,7 +978,7 @@ margin-top: 10rem;
 margin-left: 3rem;
 top: 3rem;
 position: relative;
-display: none;
+display: block;
 }
 
 h8{
@@ -989,12 +987,12 @@ color: white;
 margin-left: 3rem;
 top: 5rem;
 position: relative;
-display: none;
+display: block;
 
 }
 
 .avb{
-display: none;
+display: block;
   width: 100%;
   height: 500px;
 background-image: url("im.jpg");
@@ -1085,8 +1083,7 @@ background: #0099f1;
   height: 500px;
 background-image: url("im1.jpg");
 background-size: cover;
-display: none;
-
+display: block;
 
 }
 .avbd{
@@ -1094,7 +1091,7 @@ display: none;
   height: 500px;
 background-image: url("im2.jpg");
 background-size: cover;
-display: none;
+display: block;
 
 
 }
@@ -1108,7 +1105,7 @@ display: none;
 background-image: url("im3.jpg");
 
 background-size: cover;
-display: none;
+display: block;
 
 }
 
@@ -1120,8 +1117,7 @@ display: none;
 background-image: url("im4.jpg");
 
 background-size: cover;
-display: none;
-
+display: block;
 }
 h3{
   margin-left: 0rem;
@@ -1136,8 +1132,7 @@ h3{
 
 
 .avbg{
-  display: none;
-
+  display: block;
 background-image: url("im5.jpg");
 background-size: cover;
 width: 100%;
@@ -1155,7 +1150,7 @@ height: 500px;
   position:relative;
   float:right;
 }.barWrapper{
-  display: none;
+  display: block;
 }
 .tooltip > .tooltip-inner {background-color: #eebf3f; padding:5px 15px; color:rgb(23,44,66); font-weight:bold; font-size:13px;}
 .popOver + .tooltip > .tooltip-arrow {	border-left: 5px solid transparent; border-right: 5px solid transparent; border-top: 5px solid #eebf3f;}
@@ -1230,38 +1225,32 @@ margin-right: 10rem;
 }
 @media only screen and (min-width: 328px) and (max-width: 1024px) and (orientation: portrait) {
   .avb{
-    display: none;
-  
+    display: block;  
   background-size: cover;
   width: 100%;
   height:250px;
   } .avbs{
-    display: none;
-  
+    display: block;  
   background-size: cover;
   width: 100%;
   height:250px;
   } .avbd{
-    display: none;
-  
+    display: block;  
   background-size: cover;
   width: 100%;
   height:250px;
   } .avbe{
-    display: none;
-  
+    display: block;  
   background-size: cover;
   width: 100%;
   height:250px;
   } .avbf{
-    display: none;
-  
+    display: block;  
   background-size: cover;
   width: 100%;
   height:250px;
   } .avbg{
-    display: none;
-  
+    display: block;  
   background-size: cover;
   width: 100%;
   height:250px;
@@ -1360,8 +1349,7 @@ margin-right: 10rem;
      color: red;
      margin-left: 5%;
    font-family: serif;
-display: none;
-   }
+   display: block;   }
 
    .carousel p{
      text-align: left;
@@ -1421,8 +1409,7 @@ left: 70%;
        height: 700px;
        top:0;
        left:0;
-       display:none;
-       bottom:0;
+       display: none;       bottom:0;
        position:fixed ;
        z-index: 1000;
        background-color: #f3f4f8;
@@ -1467,38 +1454,32 @@ margin-left: 0rem;
     }
  } @media only screen and (min-width: 328px) and (max-width: 1024px) and (orientation: landscape) {
   .avb{
-    display: none;
-  
+    display: block;  
   background-size: cover;
   width: 100%;
   height:300px;
   } .avbs{
-    display: none;
-  
+    display: block;  
   background-size: cover;
   width: 100%;
   height:300px;
   } .avbd{
-    display: none;
-  
+    display: block;  
   background-size: cover;
   width: 100%;
   height:300px;
   } .avbe{
-    display: none;
-  
+    display: block;  
   background-size: cover;
   width: 100%;
   height:300px;
   } .avbf{
-    display: none;
-  
+    display: block;  
   background-size: cover;
   width: 100%;
   height:300px;
   } .avbg{
-    display: none;
-  
+    display: block;  
   background-size: cover;
   width: 100%;
   height:300px;
@@ -1597,8 +1578,7 @@ margin-left: 0rem;
      color: red;
      margin-left: 5%;
    font-family: serif;
-display: none;
-   }
+   display: block;   }
 
    .carousel p{
      text-align: left;
@@ -1655,8 +1635,7 @@ left: 0rem;
        height: 700px;
        top:0;
        left:0;
-       display:none;
-       bottom:0;
+       display: none;       bottom:0;
        position:fixed ;
        z-index: 1000;
        background-color: #f3f4f8;
