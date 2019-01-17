@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function(){
   $('.carousel').carousel({
       interval: 4000 / 2  // 1000 x 1 = 1 second
   });
