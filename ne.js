@@ -21,7 +21,7 @@ $(document).ready(function() {
   // declare variable
   var scrollTop = $(".scrollTop");
 
-  $(window).scroll(function() {
+  $(window).scroll(function(){
     // declare variable
     var topPos = $(this).scrollTop();
 
